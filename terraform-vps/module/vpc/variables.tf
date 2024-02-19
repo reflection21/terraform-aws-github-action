@@ -1,5 +1,5 @@
-variable "vps_cidr" {
-  description = "CIDR VPS range"
+variable "vpc_cidr" {
+  description = "CIDR VPC range"
   type        = string
 
 }
@@ -11,6 +11,6 @@ variable "subnet_cidr" {
 variable "subnet_name" {
   description = "Names subnet"
   type        = list(string)
-  default     = ["Public1", "Public2"]
+  default     = ["PublicSubnet1", "PublicSubnet2"]
 
 }
