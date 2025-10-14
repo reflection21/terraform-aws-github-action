@@ -1,4 +1,4 @@
-variable "sg_id" {
+variable "sg_ec2" {
   description = "sg for ec2"
   type        = string
 }

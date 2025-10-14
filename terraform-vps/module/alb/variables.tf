@@ -1,4 +1,4 @@
-variable "sg_id" {
+variable "sg_lb" {
   description = "sg for ald"
   type        = string
 }

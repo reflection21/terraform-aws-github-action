@@ -1,1 +1,0 @@
-# vpc-terraform-github-action
