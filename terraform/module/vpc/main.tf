@@ -34,7 +34,7 @@ resource "aws_route_table" "rt" {
     gateway_id = aws_internet_gateway.igw.id
   }
   tags = {
-    "Name" = "rtforsubnet"
+    "Name" = "rt-for-subnet"
   }
 }
 #route table association

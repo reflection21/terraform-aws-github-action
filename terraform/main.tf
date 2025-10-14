@@ -22,7 +22,6 @@ module "alb" {
   subnet_id = module.vpc.subnets_id
   vps_id    = module.vpc.vpc_id
   instances = module.ec2.instances
-
 }
 
 

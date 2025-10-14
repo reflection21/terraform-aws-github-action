@@ -11,6 +11,7 @@ terraform {
     key    = "dev/terraform.tfstate"
     region = "eu-north-1"
   }
+  required_version = ">= 1.5.0"
 }
 
 provider "aws" {
